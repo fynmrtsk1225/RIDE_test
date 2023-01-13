@@ -8,6 +8,7 @@ body {
   margin: 0 auto;
 }
 
+/* 最下部　トップに戻る */
 .arrow_up {
   position: relative;
   padding-left: 25px;
@@ -27,6 +28,7 @@ body {
   transform: rotate(315deg);
 }
 
+/* メニューボタン（クリック前） */
 .arrow_down_small {
   margin: 0;
   padding: 15px 50px;
@@ -48,6 +50,7 @@ body {
   transform: rotate(135deg);
 }
 
+/* メニューボタン（クリック後） */
 .arrow_up_small {
   margin: 0;
   padding: 15px 50px;
@@ -69,6 +72,7 @@ body {
   transform: rotate(135deg);
 }
 
+/* プルダウンメニュー */
 #sidebar {
   position: fixed;
   top: -100px;
@@ -105,10 +109,12 @@ body {
   object-fit: cover;
 }
 
+/* クリック判断（チェックボックス） */
 #check {
   display: none;
 }
 
+/* クリックで行う動き */
 #check:checked ~ #sidebar { 
 	display: block; 
 	top: 0;
@@ -153,12 +159,14 @@ label #cancel {
   margin-left: 250px;
 }
 
+/* スクロール後 */
 .overflow_div {
   width: auto;
   margin: 0 auto;
   overflow: auto;
 }
 
+/* トップページ（固定） */
 .top {
   height: 100vh;
   width: 100%;
@@ -199,6 +207,7 @@ label #cancel {
   
 }
 
+/* 下部ページ（スクロール可能） */
 .contents {
   position: relative;
   z-index: 20;
@@ -225,6 +234,7 @@ label #cancel {
   margin-top: 100px;
 }
 
+/* 商品の種類「PRODUCT」 */
 .product {
   display: flex;
   flex-wrap: wrap;
@@ -237,6 +247,7 @@ label #cancel {
   margin: 20px;
 }
 
+/* カラーバリエーション「STYLE」 */
 .style {
   display: table;
   height: 700px;
